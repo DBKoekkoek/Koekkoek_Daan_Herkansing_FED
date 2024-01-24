@@ -1,0 +1,435 @@
+/****************/
+/* Artikel 1 */
+/****************/
+
+section:first-of-type {
+  padding-top: 4em ;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 26em;
+  
+  width: 100%;
+
+  text-align: center;
+  overflow: hidden;
+
+  
+}
+
+section:first-of-type h1 {
+  height: auto;
+
+  max-width: 100%;
+  padding: 0 3em;
+
+  font-weight: lighter;
+  font-weight: 500;
+  font-size: 2em;
+
+}
+
+
+section:first-of-type h2 {
+  padding: 0 3.4em;
+
+  font-weight: lighter;
+  font-size: 1.2em;
+  font-weight: 300;
+
+}
+
+section:first-of-type p {
+  opacity: 40%;
+  padding-top: 1em;
+  
+  font-weight: lighter;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+section:first-of-type a {
+  font-weight: lighter;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+section:first-of-type img {
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  min-width: 50em;
+
+  object-fit: cover;
+
+  transform:translateX(-10em)
+}
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* FILMPJE */
+/****************/
+
+article:first-of-type {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  height: 53em;
+
+  text-align: center;
+  font-size: .69em;
+  color: white;
+  font-weight: 100;
+}
+
+article:first-of-type img  {
+  position: relative;
+  top: 59%;
+  left: 38%;
+
+  max-width: max-content;
+
+  width: 10em;
+
+  justify-content: center;
+
+}
+
+article:first-of-type  h2{
+  margin-top: 17.5em;
+  padding-top: 17em;
+  padding: 0 5em;
+
+  font-weight: 300;
+  font-size: 1.8em;
+  color: white;
+}
+
+article:first-of-type div  {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+
+  justify-content: center;
+
+  font-size: 1.6em;
+}
+
+article:first-of-type a  {
+  padding: .6em 1.8em;
+
+  justify-content: center;
+
+
+  border-style: none;
+  border-top-left-radius: 1.7em; /* Left half-circle */
+  border-bottom-left-radius: 1.7em;
+  border-top-right-radius: 1.7em; /* Right half-circle */
+  border-bottom-right-radius: 1.7em;
+  background-color: white;
+  
+  font-weight: 200;
+  color: black;
+}
+
+
+article:first-of-type a:hover  {
+  opacity: 90;
+
+  color: darkgrey;
+}
+
+article:first-of-type button  {
+  position: relative;
+  bottom: 1em;
+  left: 86%;
+
+  width: 1.3em;
+  height: 1.3em;
+
+  background-color: grey;
+  border-radius: 100%;
+  border-style: none;
+
+  font-size: 2em;
+
+  transform: translate(-20%, -10%);
+}
+
+article:first-of-type video  {
+  z-index: -1;
+  object-fit: cover;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  max-height: 52em;
+}
+
+@media (prefers-prefers-reduced-motion) {
+  article:first-of-type video  {
+     z-index: -1;
+     object-fit: cover;
+     position: absolute;
+  
+     width: 100%;
+     height: 100%;
+     max-height: 52em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* MEERDERE ARTIKELEN */
+/****************/
+ul:nth-child(5) li {
+  height: 25em;
+  background-position: -9em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+ul:nth-child(5) li h3 {
+  padding-top: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+ul:nth-child(5) li a {
+  position: relative;
+  top: 1em;
+
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+
+/* Fotos voor achtergrond of specefieke vorm*/
+ul:nth-child(5) li:nth-child(1) {
+  background-image: url(../foto/Home/promo_iphone15_announce__fmxxi8r9fkuy_small_2x.jpg);
+}
+
+ul:nth-child(5) li:nth-child(2) {
+  background-image: url(../foto/Home/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+}
+
+ul:nth-child(5) li:nth-child(2) {
+  color: white;
+}
+
+ul:nth-child(5) li:nth-child(3) {
+  background-image: url(../foto/Home/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall.jpg);
+}
+
+ul:nth-child(5) li:nth-child(3) {
+  color: white;
+}
+
+ul:nth-child(5) li:nth-child(4) {
+  background-image: url(../foto/Home/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+}
+
+ul:nth-child(5) li:nth-child(5) {
+  background-image: url(../foto/Home/promo_iphone15_announce__fmxxi8r9fkuy_small_2x.jpg);
+}
+
+ul:nth-child(5) li:nth-child(5) {
+  background-image: url(../foto/Home/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+}
+
+ul:nth-child(5) li:nth-child(5) {
+  color: white;
+}
+
+/******************************/
+/* DE CAROCARROUSEL CONTAINER */
+/******************************/
+
+.caroCarrousel ul:nth-child(1) {
+  margin-top: -0.5em;
+
+  list-style: none;
+  display: flex;
+  gap: 1em;
+
+  height: 30em;
+  width: 100%;
+
+  overflow: hidden;
+  scroll-snap-type: inline mandatory;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  color: white;
+}  
+
+
+.caroCarrousel ul:nth-child(1) h3 {
+  padding-top: 23em;
+  font-size: .9em;
+}
+
+.caroCarrousel ul:nth-child(1) p {
+  font-size: .9em;
+  font-weight: 100;
+  padding: 0 1em;
+}
+
+.caroCarrousel ul:nth-child(1) a {
+  position: relative;
+  top: 1em;
+  padding: .8em 2em;
+
+  justify-content: center;
+
+  border-style: none;
+  border-top-left-radius: 1.7em; /* Left half-circle */
+  border-bottom-left-radius: 1.7em;
+  border-top-right-radius: 1.7em; /* Right half-circle */
+  border-bottom-right-radius: 1.7em;
+  background-color: white;
+
+  font-size: .8em;
+  font-weight: 700;
+  color: black;
+
+  cursor: pointer;
+}
+
+.caroCarrousel ul:nth-child(1) a:hover {
+  color: cadetblue;
+}
+
+.caroCarrousel ul:nth-child(1) li {
+  flex-basis: 50%;
+  flex-shrink: 0;
+  scroll-snap-align:center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(1){
+  background-image: url(../foto/Home/1.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(2){
+  background-image: url(../foto/Home/2.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(3){
+  background-image: url(../foto/Home/3.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(4){
+  background-image: url(../foto/Home/4.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(5){
+  background-image: url(../foto/Home/6.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(6){
+  background-image: url(../foto/Home/5.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(7){
+  background-image: url(../foto/Home/8.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(8){
+  background-image: url(../foto/Home/9.jpg);
+}
+
+.caroCarrousel ul:nth-child(1) li:nth-child(9){
+  background-image: url(../foto/Home/10.jpg);
+}
+
+
+
+/****************/
+/* DE BOLLETJES */
+/****************/
+.caroCarrousel ul:nth-child(2) {
+margin-top: -0.5em;
+list-style: none;
+
+height: 3.2em;
+
+display: flex;
+
+justify-content: center;
+gap:.1em;
+}
+
+
+/* een bolletje container */
+.caroCarrousel  ul:nth-child(2) li {
+  flex-basis: 1em; 
+}
+
+
+/* de bolletjes */
+.caroCarrousel ul:nth-child(2) a {
+  position: relative;
+  top: 1em;
+  padding: .001em .6em;
+  margin: .4em;
+
+  background-color: dimgrey;
+
+  border-top-left-radius: 1.7em; /* Left half-circle */
+  border-bottom-left-radius: 1.7em;
+  border-top-right-radius: 1.7em; /* Right half-circle */
+  border-bottom-right-radius: 1.7em;
+}
+
+/* de bolletjes */
+.caroCarrousel ul:nth-child(2) a:hover {
+  background-color: gray;
+}
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

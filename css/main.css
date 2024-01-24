@@ -1,0 +1,394 @@
+/****************/
+/* Grote aanpassingen */
+/****************/
+
+/* algemeen style */
+* {
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+/* image */
+img {
+    width: 100%;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+/****************/
+/* Navigatie */
+/****************/
+
+/* positioneren nav */
+header nav {
+    z-index: 10;
+
+    position: fixed;
+    top: -1em;
+    height: 4.5em;
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+    background-color: rgba(20, 20, 20, 0.96);
+}
+
+/* svg styling */
+header nav svg {
+    z-index: 1;
+    position: relative;
+    width: 3em;
+    height: 3em;
+    
+    fill: rgb(210, 210, 210);
+    
+    cursor: pointer;
+}
+
+/* Apple logo positionering */
+header nav svg:first-child {
+    margin-right: auto;
+}
+
+
+/* Hamburger menu icon animatie */
+header nav svg:hover {
+    fill: white;
+}
+
+/* hamburger menu button styling */
+header nav button {
+    position: fixed;
+    position: relative;
+    display: grid;
+
+    margin-bottom: .2em;
+
+    width: 3em; 
+    height: 3em; 
+
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    background: none;
+    place-content: center;
+
+    transition: transform 0.3s ease;
+}
+
+/* styling van de lijn */
+header nav button span {
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    width: 1.15rem;
+    height: .14em; 
+
+    background-color: #fff; 
+    transition: translate .3s .15s, rotate .3s 0s;
+}
+
+/* animatie */
+header nav button span:nth-of-type(1) {
+    translate: 0 -.25em; /* Gemaakt met Sanne, werkt niet zonder foutmelding */
+    rotate: 0deg;
+}
+
+/* animatie */
+header nav button span:nth-of-type(2) {
+    translate: 0 .25em;
+    rotate: 0deg;
+}
+
+/* AAnimatie naar X (@css elementen)*/
+header nav button.nav-open span {
+    transition: translate .3s 0s, rotate .3s .15s;
+}
+
+/* AAnimatie naar X (@css elementen)*/
+header nav button.nav-open span:nth-of-type(1) {
+    translate: 0 0;
+    rotate: 45deg;
+}
+
+/* AAnimatie naar X (@css elementen)*/
+header nav button.nav-open span:nth-of-type(2) {
+    translate: 0 0;
+    rotate: -45deg;
+}
+
+
+
+
+
+
+
+/****************/
+/* Dropdown Menu */
+/****************/
+
+/* Stijl van dropdown menu & eerste locatie)*/
+nav:nth-child(2) ul {
+    z-index: 9;
+
+    position: absolute;
+    top: -35em;
+    height: 28em;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: .1em;
+
+    background-color: black;
+
+    font-weight: 600;
+    font-size: 1.6em;
+    list-style: none;
+    color: white;
+}
+
+/* Li plaatsing*/
+nav:nth-child(2) ul li {
+    position: relative;
+    top: 2em;
+
+    text-align: left;
+    padding-left: 1em;
+}
+
+nav:nth-child(2) ul li a {
+    color: white;
+}
+
+
+/*******************************************************************************************/
+/*voor mijn opdracht om te laten zien dat ik verschillende stijlen kan gebruiken*/
+nav:nth-child(2) ul li button {
+    text-align: center;
+
+    width: 5em;
+    height: 2em;
+    
+    background-color: white;
+    border-top-left-radius: 1.4em; /* Left half-circle */
+    border-bottom-left-radius: 1.4em;
+    border-top-right-radius: 1.4em; /* Right half-circle */
+    border-bottom-right-radius: 1.4em;
+    border: none;
+}
+
+nav:nth-child(2) button:hover {
+    background-color: #66a9df;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    content: none;
+}
+
+/* Animatie van dropdown menu, er zit een class in de css om het te laten werken*/
+nav:nth-child(2).dropdown ul {
+    transform: translateY(36.5em);
+    transition: 1s;
+}
+
+/* Hover animatie met een ">")*/
+nav:nth-child(2) ul li:hover::after {
+    letter-spacing: 4em;
+    content:' > '; 
+    position: relative;
+
+    transition: translate .3s
+}
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* FOOTER + */
+/****************/
+
+footer {
+    max-height: 66em;
+    background-color:rgb(230, 230, 230);
+ }
+ 
+ footer p {
+    padding: 1em 2em;
+
+    display: flex;
+    flex-direction: column;    
+    gap: 2em;
+
+
+    text-align: left;
+    font-weight: 100;
+    font-size: .68em;
+    line-height: 1.5em;
+    font-size: .8em;
+    color:rgb(100, 100, 100) ;
+ }
+
+ footer section a {
+    justify-content: left;
+    text-align: left;
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+/****************/
+/* Thema's + */
+/****************/
+
+/*Dark mode*/
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode img {
+    opacity: 0.7;
+    fill-opacity: var(--accentKleur);  
+}
+
+/*Light mode*/
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode nav {
+    background-color: white;
+    color: black;
+}
+
+
+body.light-mode svg {
+    fill: black;
+}
+
+body.light-mode svg:hover {
+    fill: darkgrey;
+}
+
+body.light-mode span {
+    background-color: black;
+}
+
+
+/*Custom*/
+body.custom-mode {
+    font-stretch: expanded;
+}
+
+body.custom-mode article {
+    background-color: green;
+    color: blue;
+}
+
+body.custom-mode nav {
+    background-color: orange;
+    color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* Custom properties voor systeem + */
+/****************/
+  @media(prefers-color-scheme:dark) {
+    :root {
+    --hoofdKleur:white;
+    --accentKleur:blue;
+    --backgroundColor :black;
+    }
+}
+
+
+
+
+
+
+
+
+/****************/
+/* Syling per onderdeel + */
+/****************/
+
+/* A*/
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: #66a2df;
+}
+
+a:focus {
+    color: #66a9df;
+}
+
+a:active {
+    color: steelblue;
+}
+
+
+/* Button*/
+button:link {
+    color: blue;
+}
+
+button:visited {
+    color: blue;
+}
+
+button:focus {
+    color: #66a9df;
+}
+
+button:active {
+    color: steelblue;
+}
+
+
+
