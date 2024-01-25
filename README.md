@@ -27,23 +27,30 @@ De manieren hoe ik deze elementen heb toegevoegd zal ik laten zien in mijn websi
 ## Je website
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
+ 
   ### Je opdracht:
   Link Pagina 1: https://www.apple.com/
   Link Pagina 2: https://www.apple.com/ipad/why-ipad/
+  
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home page van Apple 
   <img width="622" alt="Screenshot 2023-11-20 at 16 17 32" src="https://github.com/DBKoekkoek/Apple/assets/151542447/2d19bd15-4161-4c16-8574-6fe7f86cea43">
-  #### Screenshot(s) van de tweede pagina (small screen):
+  
+  ]#### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
   <img width="1512" alt="Screenshot 2023-12-04 at 15 10 25" src="https://github.com/DBKoekkoek/Apple/assets/151542447/f1f013e9-e26a-4ee3-bcf3-78f885522363">
+
 </details>
 De verschillen in de pagina, zijn het grootst. Apple z'n huisstijl is erg hetzelfde. Ik wilde een andere pagina pakken die meer verschillen heeft. Kan ik ook meer mijn skills laten zien.
 ## Toegankelijkheidstest 1/2 (week 1)
 <details>
+ 
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 </details>
+
 ## Breakdownschets (week 1)
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
@@ -96,19 +103,23 @@ De grootste uitdaging is de slideshow. De slideshow is heb ik zelf nog nooit gem
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
   - punt 1
   - punt 2
   - nog een punt
   - ...
+
 </details>
 ## Voortgang 2 (week 3)
 <details>
+  
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
   ### Stand van zaken
 IK ben relatief ver zover ik weet. De code is wel lastig, en ik heb veel problemen gehad met bepaalde manieren van flexbox en posistion gebruiken. Waardoor ik extra wit ruimte krijg die ik niet wel. Daarnaast moet ik nu bijna de laatste dingen focussen op Javascript en mijn eerste pagina finetune en details goed verwerken. Maar bulk is klaar denk ik. 
 Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aan het begin. Zodat het hopelijk wat lekkerder loopt. Eerst HTML echt goed hebben en dan pas CSS netjes maken.
+  
   ### Agenda voor meeting
   samen met je groepje opstellen
   | Daan    | student 2          | student 3    | student 4        |
@@ -118,6 +129,7 @@ Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aa
 3. Wanneer Grid? In mijn html CSs | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
   - punt 1
@@ -125,18 +137,23 @@ Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aa
   - nog een punt
 - ...
 </details>
+
 ## Toegankelijkheidstest 2/2 (week 4)
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 </details>
+
 ## Voortgang 3 (week 4)
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+  
   ### Stand van zaken
 IK ben relatief ver zover ik weet. De code is wel lastig, en ik heb veel problemen gehad met bepaalde manieren van flexbox en posistion gebruiken. Waardoor ik extra wit ruimte krijg die ik niet wel. Daarnaast moet ik nu bijna de laatste dingen focussen op Javascript en mijn eerste pagina finetune en details goed verwerken. Maar bulk is klaar denk ik. 
 Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aan het begin. Zodat het hopelijk wat lekkerder loopt. Eerst HTML echt goed hebben en dan pas CSS netjes maken.
+  
   ### Agenda voor meeting
   samen met je groepje opstellen
   | Daan    | student 2          | student 3    | student 4        |
@@ -146,6 +163,7 @@ Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aa
 3. Wanneer Grid? In mijn html CSs | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+ 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
   - punt 1
@@ -153,18 +171,23 @@ Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aa
   - nog een punt
   - ...
 </details>
+
 ## Eindgesprek (week 5)
 <details>
   <summary>uitwerken voor eindgesprek</summary>
+  
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
+
 ## Bronnenlijst
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
@@ -174,4 +197,27 @@ Ik heb een stap gemaakt naar de tweede pagina. Waar ik een andere aanpak neem aa
   1. bron 1
   2. bron 2
   3. ...
+</details>
+
+## Herkansing
+
+  ### Je uitkomst - karakteristiek screenshots:
+  Ik heb uiteindelijk mijn code W3C goed gemaakt, er zitten nu geen fouten erin. Wat ik belangrijk vond is ook dat de link van mijn website het dit keer deed. Mijn eerste inlevering waren de links niet goed dedend met javascript die niet goed deed. Nu deden alle links/aspecten, waardoor mijn website beter is dan normaal. Daarnaast zijn sommige problemene die mijn website had ook aangeapst, bijvoorbeeld de carasoul die niet helemaal goed was. 
+
+Als het gaat om mijn css html opzet is dat ook netjes gezet, nu met code die netjes staat en code die niet dubbel staat.
+ 
+  ### Dit was lastig/Is niet gelukt:
+  De carasoul is nogsteeds niet optimaal, nu staat de css html en javascript netjes erin zonder problemene. Maar ik kan het nog steeds niet automatisch laten laden, mijn javscript skills zijn nog niet helemaal optimaal. Ik ben daarom ook van plan om een extra online cursus te doen om het optelossen. Als compensatie daarrvoor heb ik meer tijd besteed om de andere elementen goed aan te passen. 
+
+  ### Algemeen wat ik aangepast hebt: 
+Aanpassingen:
+<details open>
+    Code werkt nu met andere apparaten
+    Links zijn nu correct
+    HTML & CSS hebben geen W3C fouten
+    Overnodige code die niet nodig is is aangepast
+    Volgorde/locatie is aangepast
+    De Carasoul werkt nu (Vorige keer deed die niks)
+    Themes werken
+    Navigatie is beter gesteld met flexbox
 </details>
